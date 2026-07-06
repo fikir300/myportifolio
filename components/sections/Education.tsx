@@ -8,11 +8,6 @@ const education = [
     degree: "Bachelor of Science in software Engineering",
     description: "Data Structures, and Web Technologies.",
   },
-  {
-    school: "Online Certifications",
-    degree: "Full Stack Web Development",
-    description: "Advanced training in Next.js, TypeScript, and Cloud Deployment.",
-  },
 ];
 
 export default function Education() {

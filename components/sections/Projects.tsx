@@ -4,26 +4,26 @@ import ProjectCard from "../ui/Card";
 const projects = [
   {
     title: "BookHive AI",
-    description: "A full-stack e-commerce solution featuring AI-driven product recommendations and secure Stripe checkout.",
+    description: "A full-stack book search solution featuring AI-driven searches for your reading needs.",
     tags: ["Next.js", "TypeScript", "Stripe", "OpenAI"],
-    github: "https://github.com/yourusername/project1",
+    github: "https://github.com/fikir300/book-search",
     link: "https://project1-demo.com",
     image: "/project1.jpg" 
   },
   {
-    title: "Social Media Dashboard",
-    description: "Real-time analytics dashboard with live data visualization using Recharts and Tailwind CSS.",
-    tags: ["React", "Tailwind", "Recharts", "Firebase"],
-    github: "https://github.com/yourusername/project2",
-    link: "https://project2-demo.com",
+    title: "To-Do-List",
+    description: "A simple and intuitive to-do list application built with React and Firebase.",
+    tags: ["React", "JavaScript", "Firebase"],
+    github: "https://github.com/fikir300/To-Do-List",
+    link: "https://to-do-list-mu-sandy-35.vercel.app/",
     image: "/project2.jpg" 
   },
   {
-    title: "AI Image Generator",
-    description: "A creative tool that uses DALL-E API to generate high-quality images from text prompts.",
+    title: "Quote Generator",
+    description: "A sleek quote generator that fetches random quotes from a REST API.",
     tags: ["Next.js", "OpenAI API", "Cloudinary"],
-    github: "https://github.com/yourusername/project3",
-    link: "https://project3-demo.com",
+    github: "https://github.com/fikir300/Quote",
+    link: "https://quote-six-mu.vercel.app",
     image: "/project3.jpg" 
   }
 ];
