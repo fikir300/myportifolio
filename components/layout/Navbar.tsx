@@ -55,10 +55,7 @@ export default function Navbar() {
             </button>
           )}
 
-          <div className="hidden sm:flex items-center gap-3 pl-4 border-l border-zinc-200 dark:border-zinc-800">
-            <a href="https://github.com/fikir300" target="_blank" className="text-zinc-500 hover:text-zinc-900 dark:hover:text-white transition-colors"><FaGithub size={18} /></a>
-            <a href="https://linkedin.com/in/fikirte-alemayehu" target="_blank" className="text-zinc-500 hover:text-zinc-900 dark:hover:text-white transition-colors"><FaLinkedin size={18} /></a>
-          </div>
+          
         </div>
       </div>
     </nav>

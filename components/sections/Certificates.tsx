@@ -6,13 +6,13 @@ const certificates = [
     title: "Data Structures and Algorithms",
     issuer: "GDG AASTU",
     date: "2026",
-    link: "/certificates/f.pdf",
+    link: "/f.pdf",
   },
   {
     title: "Embedded Systems",
     issuer: "Cassiopia AASTU",
     date: "2026",
-    link: "/certificates/fa.pdf",
+    link: "/fa.pdf",
   },
 ];
 

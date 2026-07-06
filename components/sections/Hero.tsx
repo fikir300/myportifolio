@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
-
+import { FaSun, FaMoon, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FiHome, FiUser, FiCode, FiAward, FiCpu, FiMail } from "react-icons/fi";
 export default function Hero() {
   return (
     <motion.div 
@@ -17,6 +18,10 @@ export default function Hero() {
         FIKIRTE <br /> 
         <span className="text-zinc-900 black:text-white">ALEMAYEHU</span>
       </h1>
+      <div className="hidden sm:flex items-center gap-3 pl-4 border-l border-zinc-200 dark:border-zinc-800">
+            <a href="https://github.com/fikir300" target="_blank" className="text-zinc-500 hover:text-zinc-900 dark:hover:text-white transition-colors"><FaGithub size={18} /></a>
+            <a href="https://linkedin.com/in/fikirte-alemayehu" target="_blank" className="text-zinc-500 hover:text-zinc-900 dark:hover:text-white transition-colors"><FaLinkedin size={18} /></a>
+          </div>
       <div className="flex gap-4 pt-4">
         <a href="#projects" className="px-8 py-3 bg-blue-600 text-white rounded-full font-bold hover:bg-blue-700 transition shadow-lg">
           My Work
