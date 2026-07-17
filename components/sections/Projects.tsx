@@ -8,7 +8,7 @@ export default function Projects() {
 
   useEffect(() => {
     // 1. Replace this URL with your actual Railway Public Domain
-    const API_URL = "https://portfolio-api-production.up.railway.app/projects";
+    const API_URL = "https://portfolio-api-product.up.railway.app/projects";
 
     fetch(API_URL)
       .then((res) => res.json())
